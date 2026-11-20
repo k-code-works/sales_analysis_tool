@@ -24,6 +24,7 @@ from openpyxl.drawing.image import Image as XLImage
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+import japanize_matplotlib
 from matplotlib.ticker import FuncFormatter
 
 plt.rcParams["font.family"] = ["Noto Sans CJK JP", "Meiryo", "Yu Gothic", "MS Gothic", "sans-serif"]
