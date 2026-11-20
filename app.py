@@ -10,9 +10,6 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-plt.rcParams["font.family"] = "Noto Sans CJK JP"
-plt.rcParams["axes.unicode_minus"] = False
-
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Border, Side, Alignment
 from openpyxl.chart import BarChart, DoughnutChart, LineChart
